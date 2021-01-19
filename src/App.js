@@ -13,15 +13,18 @@ const Wrapper = styled.div`
 const Td = styled.td`
   text-align: center;
 
-`
+`;
 const Tr = styled.tr`
- &:nth-child(even) {
-    background-color: pink
+  &:nth-child(even) {
+    background-color: pink;
   }
-`
-
+  &:nth-child(odd) {
+    background-color: lightgray;
+  }
+`;
 const Th = styled.th`
   padding: 10px;
+  background-color: lightgreen;
 `;
 
 
